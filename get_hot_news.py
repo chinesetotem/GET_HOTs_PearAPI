@@ -41,12 +41,8 @@ def save_to_json(data):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     filename = f'hot_news_{timestamp}.json'
     
-    # 确保目录存在
-    save_dir = 'data'
-    if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
-    
-    filepath = os.path.join(save_dir, filename)
+    # 保存到仓库根目录
+    filepath = filename
     
     try:
         with open(filepath, 'w', encoding='utf-8') as f:
