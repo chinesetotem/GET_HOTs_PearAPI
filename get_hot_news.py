@@ -14,7 +14,7 @@ EMAIL_CONFIG = {
     'smtp_server': 'smtp.qq.com',  # QQ邮箱SMTP服务器，可根据需要修改
     'smtp_port': 587,
     'sender_email': '32580117@qq.com',  # 发送方邮箱
-    'sender_password': 'your_app_password',  # 邮箱授权码
+    'sender_password': 'khashmdhmgqobjhb',  # 邮箱授权码
     'receiver_email': 'jor-z@foxmail.com'  # 接收方邮箱
 }
 
